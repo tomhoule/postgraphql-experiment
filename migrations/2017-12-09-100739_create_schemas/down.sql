@@ -1,0 +1,2 @@
+DROP SCHEMA loc;
+DROP SCHEMA loc_api;

@@ -1,0 +1,2 @@
+CREATE SCHEMA loc_api;
+CREATE SCHEMA loc;

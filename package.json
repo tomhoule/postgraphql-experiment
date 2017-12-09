@@ -1,0 +1,10 @@
+{
+  "name": "postgraphql-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tom Houlé <tom@tomhoule.com>",
+  "license": "MIT",
+  "dependencies": {
+    "postgraphql": "^3.5.4"
+  }
+}

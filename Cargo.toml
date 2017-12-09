@@ -1,0 +1,15 @@
+[package]
+name = "postgraphql-experiment"
+version = "0.1.0"
+authors = ["Tom Houlé <tom@tomhoule.com>"]
+
+[dependencies]
+diesel = "0.99"
+failure = "*"
+chrono = "0.4"
+iron = "0.5.1"
+juniper = "0.9.0"
+juniper_codegen = "0.9.0"
+juniper_iron = "0.1.1"
+# part of iron
+mount = "0.3.0"
