@@ -4,9 +4,6 @@ watch:
     -e rs,sql \
     -c cargo run
 
-start-graphiql:
-    echo "not implemented"
-
 start-postgres:
     systemctl start postgresql
 
