@@ -1,3 +1,15 @@
+codegen:
+    `yarn bin`/apollo-codegen \
+        introspect-schema \
+        http://localhost:5000/graphql \
+        --output pgql_schema.json
+    `yarn bin`/apollo-codegen \
+        generate \
+        **/*.graphql \
+        --schema pgql_schema.json \
+        --target typescript \
+        --output operation-result-types.ts
+
 watch:
     watchexec \
     -r \

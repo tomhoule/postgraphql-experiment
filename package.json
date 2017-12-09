@@ -6,5 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "postgraphql": "^3.5.4"
+  },
+  "devDependencies": {
+    "apollo-codegen": "^0.18.1"
   }
 }
